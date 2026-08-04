@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/njtech-starting-point-bubbles.gif" alt="南工起点站：第一次走进南工，从这里开始" width="100%">
+  <img src="public/njtech-starting-point-bubbles.gif?v=20260805-story" alt="南工起点站：第一次走进南工，从这里开始" width="100%">
 </p>
 
 <h1 align="center">南工起点站</h1>
