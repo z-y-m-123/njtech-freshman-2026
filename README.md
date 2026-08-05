@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/njtech-starting-point-product-tour.gif?v=20260805-product-tour" alt="南工起点站产品预览：首页、校园地图与官方服务入口" width="100%">
+  <img src="public/njtech-starting-point-home.png?v=20260805-home" alt="南工起点站：首页与天宝阁" width="100%">
 </p>
 
 <h1 align="center">南工起点站</h1>
