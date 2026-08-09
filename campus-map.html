@@ -1,47 +1,46 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="鍗楀伐璧风偣绔欐睙娴︽牎鍖哄湴鐐瑰湴鍥撅細鎼滅储鍦扮偣銆佺瓫閫夌被鍒€佹煡鐪嬭祫鏂欎笌瀵艰埅銆? />
-    <title>鏍″洯鍦板浘 路 鍗楀伐璧风偣绔?/title>
+    <meta name="description" content="南工起点站江浦校区地点地图：搜索地点、筛选类别、查看资料与导航。" />
+    <title>校园地图 · 南工起点站</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
     <link rel="stylesheet" href="campus-map.css" />
   </head>
   <body>
     <header class="map-header">
-      <a href="index.html" class="map-brand"><span>鍗楀伐</span>璧风偣绔?/a>
-      <nav aria-label="椤甸潰瀵艰埅"><a href="index.html" class="map-back">鈫?杩斿洖棣栭〉</a><a href="campus-tools.html" class="map-back">鐢熸椿璧勬枡</a><a href="assets/njtech-jiangpu-campus-map-optimized.jpg" class="map-download" download="鍗椾含宸ヤ笟澶у姹熸郸鏍″尯楂樻竻鍦板浘.jpg">涓嬭浇楂樻竻鍥?/a></nav>
+      <a href="index.html" class="map-brand"><span>南工</span>起点站</a>
+      <nav aria-label="页面导航"><a href="index.html" class="map-back">← 返回首页</a><a href="campus-tools.html" class="map-back">生活资料</a><a href="assets/njtech-jiangpu-campus-map-optimized.jpg" class="map-download" download="南京工业大学江浦校区高清地图.jpg">下载高清图</a></nav>
     </header>
     <main class="map-shell">
-      <aside class="map-sidebar" aria-label="鍦扮偣妫€绱?>
-        <p class="map-kicker">姹熸郸鏍″尯 路 鍦扮偣鍙傝€?/p>
-        <h1>鏍″洯鍦板浘</h1>
-        <p class="map-intro">鎵句綅缃€佺湅绠€浠嬶紝鍐嶆寜闇€鎵撳紑瀹炴椂瀵艰埅銆?/p>
-        <label class="map-search" for="mapSearch"><span>鎼滅储鍦扮偣</span><input id="mapSearch" type="search" placeholder="鍥句功棣嗐€侀鍫傘€佹牎闂? autocomplete="off" /></label>
-        <div class="map-filters" id="mapFilters" aria-label="鍦扮偣鍒嗙被">
-          <button class="is-active" type="button" data-category="all">鍏ㄩ儴</button><button type="button" data-category="gate">鏍￠棬</button><button type="button" data-category="teaching">鏁欏</button><button type="button" data-category="living">鐢熸椿</button><button type="button" data-category="food">椁愰ギ</button><button type="button" data-category="sports">杩愬姩</button><button type="button" data-category="scenery">鏅</button><button type="button" data-category="transport">浜ら€?/button>
+      <aside class="map-sidebar" aria-label="地点检索">
+        <p class="map-kicker">江浦校区 · 地点参考</p>
+        <h1>校园地图</h1>
+        <p class="map-intro">找位置、看简介，再按需打开实时导航。</p>
+        <label class="map-search" for="mapSearch"><span>搜索地点</span><input id="mapSearch" type="search" placeholder="图书馆、食堂、校门" autocomplete="off" /></label>
+        <div class="map-filters" id="mapFilters" aria-label="地点分类">
+          <button class="is-active" type="button" data-category="all">全部</button><button type="button" data-category="gate">校门</button><button type="button" data-category="teaching">教学</button><button type="button" data-category="living">生活</button><button type="button" data-category="food">餐饮</button><button type="button" data-category="sports">运动</button><button type="button" data-category="scenery">景观</button><button type="button" data-category="transport">交通</button>
         </div>
-        <div class="map-result-heading"><strong id="mapCount">0 涓湴鐐?/strong><small>鍙户缁ˉ鍏?/small></div>
+        <div class="map-result-heading"><strong id="mapCount">0 个地点</strong><small>可继续补充</small></div>
         <div id="mapResults" class="map-results"></div>
       </aside>
-      <section class="map-main" aria-label="姹熸郸鏍″尯鍦板浘">
-        <div class="map-view-switch" aria-label="鍦板浘瑙嗗浘"><button class="is-active" type="button" data-map-view="live" aria-pressed="true">瀹炴椂鍦板浘</button><button type="button" data-map-view="guide" aria-pressed="false">楂樻竻鍥惧瑙?/button></div>
+      <section class="map-main" aria-label="江浦校区地图">
+        <div class="map-view-switch" aria-label="地图视图"><button class="is-active" type="button" data-map-view="live" aria-pressed="true">实时地图</button><button type="button" data-map-view="guide" aria-pressed="false">高清图导览</button></div>
         <div id="liveCampusMap" class="live-campus-map"></div>
-        <div id="highResCampusGuide" class="high-res-campus-guide" hidden><div class="high-res-guide-canvas"><img src="assets/njtech-jiangpu-campus-map-optimized.jpg" alt="鍗椾含宸ヤ笟澶у姹熸郸鏍″尯楂樻竻鏍″洯鍦板浘" /><div id="highResGuideMarkers" class="high-res-guide-markers" aria-label="楂樻竻鍥惧鑸嶆爣璁?></div></div></div>
-        <div class="map-legend" aria-label="浣跨敤鎻愮ず"><strong id="mapLegendTitle">鍦扮偣瀹氫綅鍙傝€?/strong><span id="mapLegendCopy">鍏紑 BD-09 鐐逛綅宸茶浆鎹负楂樺痉搴曞浘鍧愭爣</span></div>
+        <div id="highResCampusGuide" class="high-res-campus-guide" hidden><div class="high-res-guide-canvas"><img src="assets/njtech-jiangpu-campus-map-optimized.jpg" alt="南京工业大学江浦校区高清校园地图" /><div id="highResGuideMarkers" class="high-res-guide-markers" aria-label="高清图宿舍标记"></div></div></div>
+        <div class="map-legend" aria-label="使用提示"><strong id="mapLegendTitle">地点定位参考</strong><span id="mapLegendCopy">公开 BD-09 点位已转换为高德底图坐标</span></div>
       </section>
     </main>
     <aside id="placeDetail" class="place-detail" hidden aria-live="polite">
-      <button class="detail-close" type="button" data-close-place aria-label="鍏抽棴鍦扮偣璇︽儏">鍏抽棴</button>
+      <button class="detail-close" type="button" data-close-place aria-label="关闭地点详情">关闭</button>
       <p id="placeDetailMeta"></p><h2 id="placeDetailTitle"></h2><p id="placeDetailBody"></p>
       <figure id="placeDetailFigure" class="place-detail-figure" hidden><img id="placeDetailImage" alt="" /><figcaption id="placeDetailCaption"></figcaption></figure>
       <p id="placeDetailSource" class="detail-source"></p>
-      <div class="detail-actions"><a id="placeDetailPanorama" target="_blank" rel="noreferrer" hidden>鏌ョ湅 3D 鍏ㄦ櫙</a><a id="placeDetailNav" target="_blank" rel="noreferrer">鎵撳紑瀹炴椂瀵艰埅</a><a href="assets/njtech-jiangpu-campus-map-optimized.jpg" download="鍗椾含宸ヤ笟澶у姹熸郸鏍″尯楂樻竻鍦板浘.jpg">涓嬭浇楂樻竻鍥?/a></div>
+      <div class="detail-actions"><a id="placeDetailPanorama" target="_blank" rel="noreferrer" hidden>查看 3D 全景</a><a id="placeDetailNav" target="_blank" rel="noreferrer">打开实时导航</a><a href="assets/njtech-jiangpu-campus-map-optimized.jpg" download="南京工业大学江浦校区高清地图.jpg">下载高清图</a></div>
     </aside>
-    <footer class="map-footer">鍗楀伐璧风偣绔?路 閲嶈淇℃伅浠ュ鏍″綋骞村畼鏂归€氱煡涓哄噯銆?<a class="icp-filing" href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">鑻廔CP澶?026054430鍙?/a></footer>
+    <footer class="map-footer">南工起点站 · 重要信息以学校当年官方通知为准。 <a class="mirror-note" href="https://njtechstart.top/">Official site: njtechstart.top</a></footer>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="data/campus-map-data.js"></script><script src="campus-map.js"></script>
   </body>
 </html>
-

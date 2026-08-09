@@ -1,10 +1,10 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="鍗椾含宸ヤ笟澶у瀛︾绔炶禌涓庡垱鏂板垱涓氱珵璧涙椿鍔ㄧ洰褰曟煡璇€? />
-    <title>绔炶禌涓庡垱鏂扮洰褰?路 鍗楀伐璧风偣绔?/title>
+    <meta name="description" content="南京工业大学学科竞赛与创新创业竞赛活动目录查询。" />
+    <title>竞赛与创新目录 · 南工起点站</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800;900&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
@@ -14,32 +14,31 @@
   </head>
   <body class="competitions-page">
     <header class="site-header competitions-header">
-      <a class="brand" href="index.html#top" aria-label="杩斿洖鍗楀伐璧风偣绔欓椤?><img class="brand-mark" src="assets/njtech-emblem.png" alt="" aria-hidden="true" /><span>鍗楀伐<span>璧风偣绔?/span></span></a>
-      <a class="services-back" href="index.html#competitions">杩斿洖棣栭〉 <span>鈫?/span></a>
+      <a class="brand" href="index.html#top" aria-label="返回南工起点站首页"><img class="brand-mark" src="assets/njtech-emblem.png" alt="" aria-hidden="true" /><span>南工<span>起点站</span></span></a>
+      <a class="services-back" href="index.html#competitions">返回首页 <span>↗</span></a>
     </header>
 
     <main class="competitions-main">
       <section class="competitions-hero">
-        <div><p>COMPETITION DIRECTORY</p><h1>绔炶禌涓庡垱鏂帮紝<br /><em>浠庤繖閲屽紑濮嬫壘銆?/em></h1></div>
-        <p>鏀跺綍鍗椾含宸ヤ笟澶у 2024 骞村绉戠珵璧涘拰鍒涙柊鍒涗笟绔炶禌娲诲姩鐩綍銆傜洰褰曠敤浜庝簡瑙ｈ禌浜嬫柟鍚戯紝鍏蜂綋鎶ュ悕涓庢椂闂翠互鐗靛ご鍗曚綅褰撳勾閫氱煡涓哄噯銆?/p>
+        <div><p>COMPETITION DIRECTORY</p><h1>竞赛与创新，<br /><em>从这里开始找。</em></h1></div>
+        <p>收录南京工业大学 2024 年学科竞赛和创新创业竞赛活动目录。目录用于了解赛事方向，具体报名与时间以牵头单位当年通知为准。</p>
       </section>
 
-      <section class="competition-tools" aria-label="绔炶禌鐩綍绛涢€?>
-        <label class="competition-search" for="competitionSearch"><span>鈱?/span><input id="competitionSearch" type="search" placeholder="鎼滅储绔炶禌鍚嶇О銆佸闄㈡垨鍏抽敭璇? autocomplete="off" /></label>
-        <div class="competition-filter-row" id="competitionLevelFilters" aria-label="鎸夊浗瀹剁瓑绾х瓫閫?></div>
-        <label class="competition-college"><span>鐗靛ご鍗曚綅</span><select id="competitionCollege"><option value="all">鍏ㄩ儴鍗曚綅</option></select></label>
+      <section class="competition-tools" aria-label="竞赛目录筛选">
+        <label class="competition-search" for="competitionSearch"><span>⌕</span><input id="competitionSearch" type="search" placeholder="搜索竞赛名称、学院或关键词" autocomplete="off" /></label>
+        <div class="competition-filter-row" id="competitionLevelFilters" aria-label="按国家等级筛选"></div>
+        <label class="competition-college"><span>牵头单位</span><select id="competitionCollege"><option value="all">全部单位</option></select></label>
       </section>
 
       <section class="competition-results" aria-labelledby="competitionResultsTitle">
-        <div class="competition-results-head"><div><p>鐩綍妫€绱?/p><h2 id="competitionResultsTitle">鍏?<strong id="competitionCount">0</strong> 椤硅禌浜?/h2></div><div class="competition-downloads"><a href="assets/competition-docs/njtech-competition-directory-2024.xlsx" download="鍗椾含宸ヤ笟澶у瀛︾绔炶禌鍜屽垱鏂板垱涓氱珵璧涙椿鍔ㄧ洰褰曪紙2024骞达級.xlsx">涓嬭浇 Excel</a><a href="assets/competition-docs/njtech-competition-directory-2024.pdf" target="_blank" rel="noreferrer">鏌ョ湅 PDF 鈫?/a></div></div>
+        <div class="competition-results-head"><div><p>目录检索</p><h2 id="competitionResultsTitle">共 <strong id="competitionCount">0</strong> 项赛事</h2></div><div class="competition-downloads"><a href="assets/competition-docs/njtech-competition-directory-2024.xlsx" download="南京工业大学学科竞赛和创新创业竞赛活动目录（2024年）.xlsx">下载 Excel</a><a href="assets/competition-docs/njtech-competition-directory-2024.pdf" target="_blank" rel="noreferrer">查看 PDF ↗</a></div></div>
         <div class="competition-list" id="competitionList" aria-live="polite"></div>
-        <button class="competition-load-more" id="competitionLoadMore" type="button" hidden>鏄剧ず鏇村璧涗簨</button>
+        <button class="competition-load-more" id="competitionLoadMore" type="button" hidden>显示更多赛事</button>
       </section>
     </main>
 
-    <footer><a class="brand footer-brand" href="index.html#top"><img class="brand-mark" src="assets/njtech-emblem.png" alt="" aria-hidden="true" /><span>鍗楀伐<span>璧风偣绔?/span></span></a><p>缁欏崡浜伐涓氬ぇ瀛?2026 绾ф柊鍚屽鐨勪簰鍔╁弬鑰冪珯銆傞噸瑕佷俊鎭浠ュ鏍″畼鏂归€氱煡涓哄噯銆?/p><small class="tech-support">鎶€鏈棶棰樺挩璇細寰俊鍙?<strong>happzhu_ai_EAI</strong></small><small class="mirror-note"><a href="https://njtechstart.top/">Official site: njtechstart.top</a></small><span>HELLO, NANJING TECH 路 2026</span></footer>
-    <div class="competition-modal" id="competitionModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="competitionModalTitle"><button class="competition-modal-backdrop" type="button" data-close-competition aria-label="鍏抽棴璇︽儏"></button><section class="competition-modal-card"><button class="modal-close" type="button" data-close-competition aria-label="鍏抽棴璇︽儏">脳</button><p id="competitionModalLevel"></p><h2 id="competitionModalTitle"></h2><dl id="competitionModalDetails"></dl><small>鐩綍鐢ㄤ簬浜嗚В璧涗簨鏂瑰悜锛涙姤鍚嶈祫鏍笺€佽禌绋嬪拰褰撳勾閫氱煡璇蜂互鐗靛ご鍗曚綅鍙戝竷涓哄噯銆?/small></section></div>
+    <footer><a class="brand footer-brand" href="index.html#top"><img class="brand-mark" src="assets/njtech-emblem.png" alt="" aria-hidden="true" /><span>南工<span>起点站</span></span></a><p>给南京工业大学 2026 级新同学的互助参考站。重要信息请以学校官方通知为准。</p><small class="tech-support">技术问题咨询：微信号 <strong>happzhu_ai_EAI</strong></small><small class="mirror-note"><a href="https://njtechstart.top/">Official site: njtechstart.top</a></small><span>HELLO, NANJING TECH · 2026</span></footer>
+    <div class="competition-modal" id="competitionModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="competitionModalTitle"><button class="competition-modal-backdrop" type="button" data-close-competition aria-label="关闭详情"></button><section class="competition-modal-card"><button class="modal-close" type="button" data-close-competition aria-label="关闭详情">×</button><p id="competitionModalLevel"></p><h2 id="competitionModalTitle"></h2><dl id="competitionModalDetails"></dl><small>目录用于了解赛事方向；报名资格、赛程和当年通知请以牵头单位发布为准。</small></section></div>
     <script src="competitions.js?v=20260729-competitions-ui16"></script>
   </body>
 </html>
-
