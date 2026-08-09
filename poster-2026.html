@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>鍗楀伐璧风偣绔?2026 娴锋姤</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; }
+    body {
+      position: relative;
+      color: #103259;
+      font-family: "Microsoft YaHei", "Noto Sans SC", sans-serif;
+      background: #dff5ff;
+    }
+    .sky { position: absolute; inset: 0; background: linear-gradient(160deg, #e9f9ff 0%, #bfeaff 42%, #effcff 100%); }
+    .sun { position: absolute; width: 330px; height: 330px; border-radius: 50%; background: #ffe28a; top: -95px; right: -98px; opacity: .95; }
+    .arc { position: absolute; width: 980px; height: 980px; border: 2px solid rgba(35, 143, 212, .22); border-radius: 50%; top: 265px; left: -535px; }
+    .arc::after { content: ""; position: absolute; inset: 88px; border: 2px solid rgba(35, 143, 212, .14); border-radius: inherit; }
+    .topbar { position: absolute; top: 72px; left: 76px; right: 76px; display: flex; justify-content: space-between; align-items: center; }
+    .brand-mini { font-size: 24px; font-weight: 800; letter-spacing: 3px; color: #1b79ba; }
+    .year { font-size: 25px; font-weight: 800; color: #1c8d76; border: 2px solid rgba(28,141,118,.32); padding: 11px 20px; border-radius: 24px; }
+    .copy { position: absolute; top: 214px; left: 76px; right: 76px; z-index: 3; }
+    .eyebrow { color: #1c8d76; font-size: 26px; font-weight: 800; letter-spacing: 4px; margin-bottom: 20px; }
+    h1 { margin: 0; font-size: 112px; line-height: 1.02; letter-spacing: 0; color: #0b4e83; font-weight: 900; }
+    h1 span { color: #24a26e; }
+    .subtitle { margin: 28px 0 0; font-size: 35px; font-weight: 600; letter-spacing: 1px; color: #356384; }
+    .hero-wrap { position: absolute; top: 500px; left: 0; width: 1080px; height: 820px; overflow: hidden; background: #d5edf9; }
+    .hero-wrap::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(222,247,255,0) 59%, rgba(223,245,255,.78) 100%); }
+    .hero { width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: brightness(1.1) saturate(1.05); }
+    .path { display: none; }
+    .path-item { display: grid; place-items: center; width: 176px; height: 110px; border-radius: 18px; background: rgba(255,255,255,.82); border: 1px solid rgba(54,143,196,.2); box-shadow: 0 12px 28px rgba(36,124,181,.1); font-size: 24px; font-weight: 800; color: #236292; }
+    .path-line { height: 3px; flex: 1; margin: 0 12px; background: linear-gradient(90deg, #3fb4e7, #4dc381); position: relative; }
+    .path-line::after { content: ""; position: absolute; width: 13px; height: 13px; background: #4dc381; border-radius: 50%; right: -1px; top: -5px; }
+    .features { position: absolute; z-index: 4; left: 76px; right: 76px; top: 1360px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .feature { height: 82px; display: flex; align-items: center; gap: 18px; padding: 16px 24px; border-radius: 18px; background: rgba(255,255,255,.86); border: 1px solid rgba(38,130,185,.14); box-shadow: 0 10px 25px rgba(34,124,177,.09); font-size: 26px; font-weight: 800; color: #1a5f90; }
+    .dot { width: 17px; height: 17px; border-radius: 50%; background: #2db87c; flex: 0 0 auto; }
+    .feature:nth-child(2) .dot { background: #3c9fe1; }
+    .feature:nth-child(3) .dot { background: #f2b845; }
+    .feature:nth-child(4) .dot { background: #8266cc; }
+    .feature:nth-child(5) { grid-column: 1 / -1; height: 70px; justify-content: center; color: #137757; }
+    .footer { position: absolute; z-index: 5; left: 76px; right: 76px; bottom: 75px; }
+    .cta { display: flex; align-items: center; justify-content: space-between; padding: 28px 31px; border-radius: 22px; background: #116da7; color: white; box-shadow: 0 18px 35px rgba(17,109,167,.25); }
+    .cta strong { font-size: 34px; letter-spacing: 1px; }
+    .cta span { font-size: 25px; padding: 10px 16px; border: 1px solid rgba(255,255,255,.5); border-radius: 18px; }
+    .url { margin-top: 20px; text-align: center; color: #437092; font-size: 20px; font-weight: 700; letter-spacing: .2px; }
+    .emblem { display: none; }
+  </style>
+</head>
+<body>
+  <div class="sky"></div><div class="sun"></div><div class="arc"></div>
+  <div class="topbar"><div class="brand-mini">NANJING TECH UNIVERSITY</div><div class="year">2026 FRESHMAN</div></div>
+  <section class="copy"><div class="eyebrow">WELCOME TO NJTECH</div><h1>鍗楀伐<span>璧风偣绔?/span></h1><p class="subtitle">缁?2026 绾ф柊鍚屽鐨勪竴绔欏紡鍏ュ鎸囧崡</p></section>
+  <div class="hero-wrap"><img class="hero" src="assets/tianbao-ge-hero-cartoon.webp" alt="鍗椾含宸ヤ笟澶у澶╁疂闃?></div>
+  <div class="path"><div class="path-item">鎶ュ埌鍑嗗</div><div class="path-line"></div><div class="path-item">瀹夊績鍏ユ牎</div><div class="path-line"></div><div class="path-item">寮€鍚崡宸?/div></div>
+  <div class="features"><div class="feature"><i class="dot"></i>瀹胯垗鍦板浘</div><div class="feature"><i class="dot"></i>鍒版牎璺嚎</div><div class="feature"><i class="dot"></i>鏍″巻鏃ョ▼</div><div class="feature"><i class="dot"></i>瀹樻柟鍏ュ彛</div><div class="feature"><i class="dot"></i>绀惧洟 路 绔炶禌 路 鐣欒█澧?/div></div>
+  <img class="emblem" src="assets/njtech-emblem.png" alt="鍗椾含宸ヤ笟澶у鏍″窘">
+  <footer class="footer"><div class="cta"><strong>浠庢姤鍒板噯澶囧紑濮?/strong><span>绔嬪嵆杩涘叆 鈫?/span></div><div class="url">njtech-tokenforge-2026-d203e9366-1397272739.tcloudbaseapp.com</div></footer>
+</body>
+</html>
+
