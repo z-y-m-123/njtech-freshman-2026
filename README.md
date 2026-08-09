@@ -6,7 +6,9 @@
 <p align="center">南京工业大学新生信息导航</p>
 
 <p align="center">
-  <a href="https://njtech-tokenforge-2026-d203e9366-1397272739.tcloudbaseapp.com/"><strong>访问网站</strong></a>
+  <a href="https://njtechstart.top/"><strong>访问正式网站</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://z-y-m-123.github.io/njtech-freshman-2026/"><strong>访问 GitHub Pages 镜像</strong></a>
   &nbsp;·&nbsp;
   <a href="#访问说明">查看访问说明</a>
 </p>
@@ -105,12 +107,11 @@
 
 ## 访问说明
 
-当前可通过腾讯云临时地址访问：
+项目提供两个访问入口：
 
-<p align="center">
-  <a href="https://njtech-tokenforge-2026-d203e9366-1397272739.tcloudbaseapp.com/">https://njtech-tokenforge-2026-d203e9366-1397272739.tcloudbaseapp.com/</a>
-</p>
+- 正式站：[https://njtechstart.top/](https://njtechstart.top/)
+- GitHub Pages 镜像：[https://z-y-m-123.github.io/njtech-freshman-2026/](https://z-y-m-123.github.io/njtech-freshman-2026/)
 
-`njtechstart.top` 正在办理备案，备案完成后会更新为正式入口。
+GitHub Pages 镜像使用仓库的 `gh-pages` 分支发布，页面、资料和图片与正式站保持同步。
 
 技术问题咨询：微信号 `happzhu_ai_EAI`
