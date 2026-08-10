@@ -461,12 +461,12 @@ const dormData = {
 };
 
 const dormPhotos = {
-  'old-nanyuan': ['old-nanyuan-01.webp', 'old-nanyuan-02.webp', 'old-nanyuan-03.webp', 'old-nanyuan-04.webp', 'old-nanyuan-05.webp'],
-  yaqing: ['yaqing-01.webp', 'yaqing-02.webp', 'yaqing-03.webp', 'yaqing-04.webp'],
-  xiangshan: ['xiangshan-01.webp', 'xiangshan-02.webp', 'xiangshan-03.webp', 'xiangshan-04.webp', 'xiangshan-05.webp', 'xiangshan-06.webp'],
-  tanxiang: ['tanxiang-01.webp', 'tanxiang-02.webp', 'tanxiang-03.webp', 'tanxiang-04.webp'],
-  dongyuan: ['dongyuan-01.webp', 'dongyuan-02.webp', 'dongyuan-03.webp', 'dongyuan-04.webp', 'dongyuan-05.webp', 'dongyuan-06.webp', 'dongyuan-07.webp'],
-  xiyuan: ['xiyuan-01.webp', 'xiyuan-02.webp', 'xiyuan-03.webp', 'xiyuan-04.webp']
+  'old-nanyuan': ['latest/old-nanyuan-01.jpg', 'latest/old-nanyuan-02.jpg', 'latest/old-nanyuan-03.jpg', 'latest/old-nanyuan-04.jpg', 'latest/old-nanyuan-05.jpg'],
+  yaqing: ['latest/yaqing-01.jpg', 'latest/yaqing-02.jpg', 'latest/yaqing-03.jpg', 'latest/yaqing-04.jpg'],
+  xiangshan: ['latest/xiangshan-01.jpg', 'latest/xiangshan-02.jpg', 'latest/xiangshan-03.jpg', 'latest/xiangshan-04.jpg', 'latest/xiangshan-05.jpg', 'latest/xiangshan-06.jpg'],
+  tanxiang: ['latest/tanxiang-01.jpg', 'latest/tanxiang-02.jpg', 'latest/tanxiang-03.jpg', 'latest/tanxiang-04.jpg'],
+  dongyuan: ['latest/dongyuan-01.jpg', 'latest/dongyuan-02.jpg', 'latest/dongyuan-03.jpg', 'latest/dongyuan-04.jpg', 'latest/dongyuan-05.jpg', 'latest/dongyuan-06.jpg', 'latest/dongyuan-07.jpg'],
+  xiyuan: ['latest/xiyuan-01.jpg', 'latest/xiyuan-02.jpg', 'latest/xiyuan-03.jpg', 'latest/xiyuan-04.jpg']
 };
 
 function dormPreviewHtml(id, name) {
