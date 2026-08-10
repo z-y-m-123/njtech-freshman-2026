@@ -302,7 +302,7 @@
     "freshness": "location-reference",
     "guideX": 22.9,
     "guideY": 25.5,
-    "image": "assets/dorm-gallery/yaqing-intro.webp",
+    "image": "assets/dorm-gallery/latest/yaqing-01.jpg",
     "imageCaption": "亚青学生公寓资料图",
     "imageAlt": "亚青学生公寓资料图"
   },
@@ -1123,7 +1123,7 @@
     "freshness": "location-reference",
     "guideX": 51.7,
     "guideY": 69.2,
-    "image": "assets/dorm-gallery/new-nanyuan-intro.webp",
+    "image": "assets/dorm-gallery/latest/old-nanyuan-01.jpg",
     "imageCaption": "南苑学生公寓资料图",
     "imageAlt": "南苑学生公寓资料图"
   },
@@ -1152,7 +1152,7 @@
     "freshness": "location-reference",
     "guideX": 46.4,
     "guideY": 66,
-    "image": "assets/dorm-gallery/xiyuan-intro.webp",
+    "image": "assets/dorm-gallery/latest/xiyuan-01.jpg",
     "imageCaption": "西苑宿舍资料图",
     "imageAlt": "西苑宿舍资料图"
   },
@@ -1181,7 +1181,7 @@
     "freshness": "location-reference",
     "guideX": 53.9,
     "guideY": 55.2,
-    "image": "assets/dorm-gallery/dongyuan-intro.webp",
+    "image": "assets/dorm-gallery/latest/dongyuan-01.jpg",
     "imageCaption": "东苑宿舍资料图",
     "imageAlt": "东苑宿舍资料图"
   },
@@ -1234,7 +1234,7 @@
     "freshness": "location-reference",
     "guideX": 31.9,
     "guideY": 23.4,
-    "image": "assets/dorm-gallery/xiangshan-intro.webp",
+    "image": "assets/dorm-gallery/latest/xiangshan-01.jpg",
     "imageCaption": "象山苑学生公寓资料图",
     "imageAlt": "象山苑学生公寓资料图"
   },
