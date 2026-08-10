@@ -37,8 +37,14 @@
       <p id="placeDetailMeta"></p><h2 id="placeDetailTitle"></h2><p id="placeDetailBody"></p>
       <figure id="placeDetailFigure" class="place-detail-figure" hidden><img id="placeDetailImage" alt="" /><figcaption id="placeDetailCaption"></figcaption></figure>
       <p id="placeDetailSource" class="detail-source"></p>
-      <div class="detail-actions"><a id="placeDetailPanorama" target="_blank" rel="noreferrer" hidden>查看 3D 全景</a><a id="placeDetailNav" target="_blank" rel="noreferrer">打开实时导航</a><a href="assets/njtech-jiangpu-campus-map-optimized.jpg" download="南京工业大学江浦校区高清地图.jpg">下载高清图</a></div>
+      <div class="detail-actions"><button id="placeDetailGallery" type="button" hidden>查看更多图片</button><a id="placeDetailPanorama" target="_blank" rel="noreferrer" hidden>查看 3D 全景</a><a id="placeDetailNav" target="_blank" rel="noreferrer">打开实时导航</a><a href="assets/njtech-jiangpu-campus-map-optimized.jpg" download="南京工业大学江浦校区高清地图.jpg">下载高清图</a></div>
     </aside>
+    <dialog id="dormGalleryDialog" class="dorm-gallery-dialog" aria-labelledby="dormGalleryTitle">
+      <div class="dorm-gallery-head"><div><p>宿舍实拍图集</p><h2 id="dormGalleryTitle">宿舍图片</h2></div><button type="button" data-close-dorm-gallery aria-label="关闭宿舍图集">关闭</button></div>
+      <div id="dormGalleryTabs" class="dorm-gallery-tabs" aria-label="选择宿舍区"></div>
+      <div id="dormGalleryGrid" class="dorm-gallery-grid"></div>
+      <p class="dorm-gallery-note">照片用于了解宿舍区环境参考，具体宿舍、床位与设施以学校实际分配和现场情况为准。</p>
+    </dialog>
     <footer class="map-footer">南工起点站 · 重要信息以学校当年官方通知为准。 <a class="mirror-note" href="https://njtechstart.top/">Official site: njtechstart.top</a></footer>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="data/campus-map-data.js"></script><script src="campus-map.js"></script>
